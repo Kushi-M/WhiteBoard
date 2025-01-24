@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Whiteboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#whiteboard">Whiteboard</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Whiteboard Section -->
+  <section id="whiteboard">
+    <h1>Interactive Whiteboard</h1>
+    <canvas id="drawingCanvas"></canvas>
+    <div class="controls">
+      <button id="drawMode">Draw</button>
+      <button id="eraseMode">Erase</button>
+      <button id="clearCanvas">Clear</button>
+      <button id="saveImage">Save</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About This Project</h2>
+    <p>This project is a simple web-based whiteboard where users can draw, erase, and save their creations. It is built using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
